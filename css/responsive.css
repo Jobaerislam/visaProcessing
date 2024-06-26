@@ -1,0 +1,89 @@
+@media only screen and (min-width:320px) and (max-width:767px) {
+    
+    .section_title {
+        text-align: center;
+        padding: 11px 0;
+    }
+    .section_title p {
+        font-size: 22px;
+        font-weight: 500;
+        color: #484747;
+        margin: 0;
+    }
+    .bnner_title p {
+        font-size: 23px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    .banner_desk p {
+        font-family: emoji;
+    }
+    .banner_text {
+        text-align: center;
+        width: 100%;
+        color: white;
+        padding: 66px 0px 0 0px;
+    }
+    .top_banner {
+        background-image: url('..//images/service4.jpg');
+        height: 460px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    .header_top {
+        display: inline-block;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+    }
+    .banner_btn {
+        margin-top: 17px;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 0 43px;
+    }
+    .banner_btn button {
+        padding: 8px 19px;
+        border: 1px solid #ff0057;
+        border-radius: 3px;
+        background-color: #ff0057;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        transition: 0.25s all;
+        width: 100%;
+    }
+    .owl-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12px;
+    }
+    .owl-nav button {
+        margin: 9px 12px 0 12px;
+        background-color: grey !important;
+        width: 24px;
+        color: white !important;
+        border-radius: 3px;
+    }
+    .owl-dots {
+        display: none;
+    }
+    .service_box {
+        padding: 32px;
+        background-color: #fff;
+        margin: 0px 7px;
+        height: 90px;
+        border-radius: 8px;
+        box-shadow: 0px 1px 4px 1px #3636365c;
+    }
+    .about_ask_question p {
+        text-align: start;
+        font-family: auto;
+        line-height: 25px;
+        color: grey;
+    }
+}
